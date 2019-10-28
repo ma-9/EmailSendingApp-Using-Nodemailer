@@ -29,7 +29,7 @@ router.post('/send',(req,res)=>{
 
     // send mail with defined transport object
     let info = transporter.sendMail({
-        from: '"ManavOza 👻" <badboysecurities@gmail.com>', // sender address
+        from: `"${req.body.name} 👻" <${req.body.email}>`, // sender address
         to: req.body.email, // list of receivers
         subject: 'Happy Diwali and Happy New Year ✔', // Subject line
         html: output // html body
