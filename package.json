@@ -4,7 +4,7 @@
   "description": "Diwali Greeting App using Nodemailer",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "node app.js"
   },
   "author": "Manav Oza (MA-9)",
   "license": "MIT",
