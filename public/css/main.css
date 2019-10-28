@@ -1,0 +1,15 @@
+.brand-logo img{
+    height: 4rem !important;
+}
+.nav-wrapper {
+    background-color: rgba(0,0,0,.5) !important;
+}
+.formContainer{
+    background-color: rgba(0,0,0,.1);
+}
+.page-footer{
+    background-color: rgba(114, 16, 16, 0.8) !important;
+}
+.diyaImage{
+    height: 5rem !important;
+}

@@ -1,0 +1,36 @@
+{{> header}}
+
+    <div class="container formContainer">
+        <h3 class="center">
+            <img src="/assets/DIya.png" class="diyaImage" alt="">
+            Wishing Form
+            <img src="/assets/DIya.png" class="diyaImage" alt="">
+        </h3>                
+        <div class="row">
+            <form class="col s12" method="POST" action="send">
+            <div class="row">
+                <div class="input-field col s6">
+                <input id="your_name" name="name" type="text" class="validate">
+                <label for="your_name">Your Name</label>
+                </div>
+                <div class="input-field col s6">
+                <input id="email" type="email" name="email" class="validate">
+                <label for="email">Friends Email</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                <textarea id="Message" name="Message" class="materialize-textarea"></textarea>
+                <label for="Message">Message</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                <button type="submit" class="btn">Send</button>
+                </div>
+            </div>
+            </form>
+        </div>
+    </div>
+
+{{> footer}}
