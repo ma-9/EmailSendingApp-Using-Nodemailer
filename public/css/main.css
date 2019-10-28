@@ -7,9 +7,17 @@
 .formContainer{
     background-color: rgba(0,0,0,.1);
 }
+.Head {
+    font-size: 30px;;
+}
 .page-footer{
     background-color: rgba(114, 16, 16, 0.8) !important;
 }
 .diyaImage{
     height: 5rem !important;
 }
+@media only screen and (max-width: 600px) {
+    .Head{
+        font-size: 20px !important;
+    }
+  }
